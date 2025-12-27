@@ -86,8 +86,17 @@
       <div class="container">
         <div class="mega-menu-wrapper">
           <div class="header-main">
-            <a href="index.html" class="header-logo">
-              <img src="assets/img/logo/white-icon.svg" alt="img" />
+            <a
+              href="index.html"
+              style="display: flex; align-items: center"
+              class="header-logo"
+            >
+              <img
+                src="assets/img/logo.svg"
+                style="width: 40px; margin-right: 5px"
+                alt="img"
+              />
+              <p style="font-size: 25px">DevRedoy</p>
             </a>
             <div class="mean__menu-wrapper">
               <div class="main-menu">
@@ -935,99 +944,7 @@
                       frequently <span>asked questions</span>
                     </h2>
                   </div>
-                  <ul class="accordion-box">
-                    <!--Block-->
-                    <li class="accordion block active-block wow fadeInUp">
-                      <div class="acc-btn active">
-                        What’s the revox progress like?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content current">
-                        <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".2s"
-                    >
-                      <div class="acc-btn">
-                        What technologies do you work with?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".4s"
-                    >
-                      <div class="acc-btn">
-                        How long does it take to complete a project?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".6s"
-                    >
-                      <div class="acc-btn">
-                        Do you build responsive websites?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="accordion block mb-0 wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <div class="acc-btn">
-                        Do you provide support after the project is completed?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
+                  <ul class="accordion-box" id="faq-container"></ul>
                 </div>
               </div>
               <div class="col-lg-6">
@@ -1241,6 +1158,8 @@
         </footer>
       </div>
     </div>
+
+    <script src="assets/data/faq.js"></script>
 
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
