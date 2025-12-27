@@ -12802,3 +12802,13 @@ h5.preloader-text::after {
   width: 0;
   transition: width 1.5s cubic-bezier(0.1, 0, 0, 1);
 }
+
+.page-nav-wrap ul li a.active {
+    background-color: #D1FF00; /* Your primary color */
+    color: #000;
+    border-color: #D1FF00;
+}
+.filter-nav .nav-link.active {
+    color: #D1FF00 !important;
+    border-bottom: 2px solid #D1FF00;
+}
